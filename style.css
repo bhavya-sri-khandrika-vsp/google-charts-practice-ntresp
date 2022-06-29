@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    /* width: 100vh;
+    height: 100vh; */
+    background-color: rgb(189, 248, 248);
+    margin: 0;
+    padding: 0;
+}
+
+/*Body elements styling starts from here*/
+
+.intro{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tit{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.tit1{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#lab, #chart-type{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#pie-chart{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+

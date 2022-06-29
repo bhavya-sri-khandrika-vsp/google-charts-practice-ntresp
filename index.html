@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Charts Example</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="intro">
+        <h1 class="tit">Welcome to Google Charts</h1>
+        <p class="tit1">You can find the integration between JS and the Google Charts here</p>
+    </div>
+
+     <!--Displaying the selected option in the select tag starts here  -->
+
+    <label for="cars" id="lab">Choose a chart type:</label>
+    <select name="chart" id="chart-type" onclick="disp(), dispchart()">
+      <option value="bar">Bar Chart</option>
+      <option value="column">Line Chart</option>
+      <option value="pie">Pie Chart</option>
+    </select> 
+
+    <div class="container-chart">
+        <h1 class="h11">You have selected <span id="res"></span></h1>
+        <div id="chart-disp"></div>
+    </div>
+    <!--Displaying the selected option in the select tag ends here  -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
